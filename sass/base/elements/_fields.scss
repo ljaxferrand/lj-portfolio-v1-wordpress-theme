@@ -1,0 +1,50 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	color: $color__text-input;
+	border: 1px solid $color__border-input;
+	border-radius: 3px;
+	padding: 3px;
+
+	&:focus {
+		color: $color__text-input-focus;
+	}
+}
+
+select {
+	border: 1px solid $color__border-input;
+}
+
+textarea {
+	width: 100%;
+}
+
+body .wpforms-container-full {
+	
+	padding: 1.5rem;
+	max-width: 32rem;
+
+	.wpforms-form button[type=submit] {
+		background-color: $color__border-button-focus;
+		border: none;
+		padding: 0.5rem 1rem;
+		border-radius: 2rem;
+
+		&:hover {
+			background-color: $color__border-button-hover;
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "name": "jaxjax1",
+  "version": "1.7.0",
+  "description": "protfolio wp theme",
+  "author": "lj ferrand",
+  "license": "GPL-3.0",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.3.2",
+    "postcss": "8.3.6",
+    "gulp": "4.0.2",
+    "gulp-postcss": "9.0.0",
+    "gulp-dart-sass": "1.0.2",
+    "gulp-sourcemaps": "3.0.0"
+  }
+}

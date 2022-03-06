@@ -1,0 +1,39 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: none;
+	border-radius: 3px;
+	background: $color__background-button;
+	color: $color__text-contrast;
+	line-height: 1;
+	padding: 0.5em 1em 0.5em 1em;
+
+	&:hover {
+		border-color: $color__border-button-hover;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color__border-button-focus;
+	}
+}
+
+body .wp-block-post-excerpt__more-link,
+.project-links {
+	padding: 0.5rem 1rem;
+	border-radius: 2rem;
+	background-color: $color__border-button-focus;
+}
+
+#project-link-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	.project-links {
+		text-align: center;
+		width: 12rem;
+		margin: 0.75rem;
+	}
+}
